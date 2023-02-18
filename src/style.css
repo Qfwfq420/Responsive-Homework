@@ -1,5 +1,38 @@
+:root {
+  --font: "Cutive Mono", monospace;
+  --color-prime: #430f58;
+  --color-sec: #6643b5;
+}
+
 .mypic {
   max-height: 400px;
+}
+
+.work-banner {
+  font-family: var(--font);
+  text-align: center;
+  font-size: 60px;
+  line-height: 50px;
+  margin: 100px;
+}
+
+.w-title {
+  color: var(--color-prime);
+  font-size: 24px;
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+.w-desc {
+  color: var(--color-sec);
+  font-size: 18px;
+  margin-top: 0;
+  margin-bottom: 5px;
+}
+
+.w-item {
+  margin-bottom: 15px;
+  text-align: center;
 }
 
 @media (min-width: 400px) {
