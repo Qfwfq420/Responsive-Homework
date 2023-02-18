@@ -57,11 +57,12 @@ footer {
 }
 
 footer a {
-  padding: 10px 14px;
+  padding: 10px 16px;
   border-radius: 50%;
   background-color: var(--secondary-color);
   color: var(--color-sec);
   margin: 10px;
+  transform: all 100ms ease-in-out;
 }
 
 footer a:hover {
