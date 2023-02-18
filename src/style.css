@@ -1,3 +1,7 @@
+.mypic {
+  max-height: 400px;
+}
+
 @media (min-width: 400px) {
   :root {
     --primary-color: #6c63ff;
